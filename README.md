@@ -13,15 +13,15 @@ yarn add base64-tools
 # 📝 Usage
 
 ```js
-const rgif = require("base64-tools");
-let base64 = "data:image/png;base64,...";
+const base64 = require("base64-tools");
+let base64code = "data:image/png;base64,...";
 
 base64.encode("roxza.png", function (err, data) {
   if (err) return;
   console.log(data);
 });
 
-base64.decode(base64, "roxza.png", function (err, name) {
+base64.decode(base64code, "roxza.png", function (err, name) {
   if (err) return;
   console.log(name);
 });
