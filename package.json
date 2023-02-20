@@ -1,9 +1,10 @@
 {
   "name": "base64-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Base64 encoding/decoding",
   "main": "index.js",
   "author": "Roxza",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Roxza/base64.git"
