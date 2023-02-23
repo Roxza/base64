@@ -1,10 +1,10 @@
 {
-  "name": "base64-tools",
+  "name": "@types/base64-tools",
   "version": "1.0.1",
   "description": "Base64 encoding/decoding",
-  "main": "index.js",
+  "main": "",
+  "types": "index.d.ts",
   "author": "Roxza",
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Roxza/base64.git"
@@ -15,8 +15,14 @@
     "base64toimage"
   ],
   "license": "MIT",
-  "dependencies": {
-    "fs": "^0.0.1-security",
-    "mime-types": "^2.1.35"
+  "scripts": {},
+  "dependencies": {},
+  "typeScriptVersion": "4.2",
+  "typesVersions": {
+    "<=4.8": {
+      "*": [
+        "ts4.8/*"
+      ]
+    }
   }
 }
